@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contacto — FidelX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="site.css" />
+    <link rel="stylesheet" href="lava.css?v=neural-lava-1" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">F</span><span>fidel<span>x</span></span></a>
+      <nav class="nav"><a href="alcance.html">Alcance</a><a href="proceso.html">Cómo funciona</a><a href="limites.html">Límites</a><a class="active" href="contacto.html">Contacto</a></nav>
+      <a class="header-cta" href="mailto:hola@fidelx.local">hola@fidelx.local <span>↗</span></a>
+    </header>
+    <main>
+      <section class="contact-wrap section-shell">
+        <div class="contact-copy">
+          <div class="eyebrow">04 / Contacto</div>
+          <h1>Hablemos de<br /><em>depuración local.</em></h1>
+          <p>¿Quieres conocer el estado del entrenamiento, proponer un caso de uso o colaborar con FidelX? Déjanos un mensaje.</p>
+          <div class="contact-meta"><span>CANAL PRINCIPAL</span><a href="mailto:hola@fidelx.local">hola@fidelx.local</a><span>RESPUESTA ESTIMADA</span><b>1–2 días hábiles</b></div>
+        </div>
+        <form class="contact-form" action="#" method="post">
+          <label>Nombre<input type="text" name="nombre" placeholder="Tu nombre" required /></label>
+          <label>Correo electrónico<input type="email" name="correo" placeholder="tu@correo.com" required /></label>
+          <label>Motivo<select name="motivo"><option>Quiero conocer FidelX</option><option>Quiero proponer un caso de uso</option><option>Quiero colaborar</option><option>Otro</option></select></label>
+          <label>Mensaje<textarea name="mensaje" rows="5" placeholder="Cuéntanos en qué podemos ayudarte" required></textarea></label>
+          <button class="button button-primary" type="submit">Enviar mensaje <span>→</span></button>
+          <p class="form-note">Este formulario es una maqueta visual. Configura un servicio de envío para recibir mensajes.</p>
+        </form>
+      </section>
+    </main>
+    <footer class="footer section-shell"><span>© 2026 FidelX</span><span>Modelo local en entrenamiento</span><span>DEPURACIÓN, Y NADA MÁS.</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
